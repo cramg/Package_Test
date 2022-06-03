@@ -1,0 +1,2 @@
+from . import aves
+from . import mamiferos
