@@ -1,18 +1,20 @@
-from setuptools import setup, find_packages
+import setuptools
 
-setup(
-    name='packagetest',
-    version='1.0.0',
-    author='Carlos Ramirez',
-    author_email='charlosrmz_07@hotmail.com',
-    package_dir={'packagetest': 'packagetest'},
-    packages=find_packages(),
-    package_data={'packagetest': []},
-    scripts=[],
-    url='https://github.com/cramg/Package_Test',
-    download_url ='https://github.com/cramg/Package_Test',
-    license='MIT',
-    description="Esta es una prueba de implementacion de una libreria en Python",
-    long_description="Esta libreria es el producto final de un tutorial sobre cómo programar una\
-    librería en Python, haciendo ejercicios basicos y replicando el repositorio de Morsa (UIBCDF)",
-)
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+        name="Package Test",
+        version="0.0.1",
+        author="Carlos Ramirez",
+        author_email="charlosrmz_07@hotmail.com",
+        description="Ejemplo de implementacion de libreria",
+        url="https://github.com/cramg/Package_Test",
+        classifiers=[
+            "Programming Language :: Python :: 3",
+            "License :: OSI Approved :: MIT License",
+            "Operating System :: OS Independent",
+        ],
+        package_dir={"": "src"},
+        packages=setuptools.find_packages(where="src"),
+)        

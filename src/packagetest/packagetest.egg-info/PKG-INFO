@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: packagetest
+Version: 1.0.0
+Summary: Esta es una prueba de implementacion de una libreria en Python
+Home-page: https://github.com/cramg/Package_Test
+Download-URL: https://github.com/cramg/Package_Test
+Author: Carlos Ramirez
+Author-email: charlosrmz_07@hotmail.com
+License: MIT
+License-File: LICENSE
+
+Esta libreria es el producto final de un tutorial sobre cómo programar una    librería en Python, haciendo ejercicios basicos y replicando el repositorio de Morsa (UIBCDF)
