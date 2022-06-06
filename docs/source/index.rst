@@ -14,10 +14,11 @@ Welcome to Package Test's documentation!
 
 .. toctree::
 
-   usage
-
    :maxdepth: 2
    :caption: Contents:
+
+   usage
+   demo.ipynb
 
 
 
